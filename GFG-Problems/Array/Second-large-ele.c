@@ -6,7 +6,7 @@ int getSecondLargest(int arr[], int n);
 int getSecondLargest(int arr[], int n)
  {
         
-       int size=sizeof(arr);
+       
        
 //*********************
        //Approch 1 sorting an array using buble sort and then return second largest
@@ -93,7 +93,7 @@ int getSecondLargest(int arr[], int n)
         
         int lar=arr[0];
         int prev=-1;
-        for(int i=1;i<size;i++)
+        for(int i=1;i<n;i++)
         {
             if(arr[i]>lar)
             {
